@@ -1,0 +1,187 @@
+.navbar {
+    font-family:Tamil Sangam MN, sans-serif ;
+    font-size: 20px;;
+}
+
+.hero {
+    background-image: url(../images/pinkSparkles.jpg);
+    background-size: cover;
+    background-color:#F4BDCC;
+    height: 100%;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 100px;
+}
+
+.aboutMe {
+    font-family:Tamil Sangam MN, sans-serif;
+    font-size: 30px;
+}
+
+#quote {
+    font-family: Playfair Display, serif;
+    background-color: #BA989E;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 50px;
+}
+
+.card {
+   font-family: Tamil Sangam MN, sans-serif ;
+   border-color: transparent;
+}
+
+.col {
+    background-color: #BA989E;
+    color: white;
+}
+
+.projectButton {
+    background-color: #E3176D;
+    border-color:#E3176D;
+    color: white;
+    font-family: Tamil Sangam MN, sans-serif ;
+}
+
+.viewWork {
+    background-color: #E3176D;
+    border-color:#E3176D;
+    color: white;
+    font-family: Tamil Sangam MN, sans-serif ;
+
+}
+
+
+.skills {
+    background-color: #BA989E;
+    font-family: Playfair Display, serif;
+}
+
+.name {
+    font-family: Playfair Display, serif;
+    text-align: center;
+    font-size: 90px;
+    padding-bottom: 50px;
+}
+
+.col1 {
+    font-size: 30px;
+    font-family: Tamil Sangam MN, sans-serif ;
+}
+
+.myProjects {
+    background-color:#F7E9D6;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+#projectHead {
+    font-family: Playfair Display, serif;
+    font-size: 40px;
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 100px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "DOI OCWHP underground";
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.DOI {
+    grid-area: DOI;
+}
+
+.OCWHP {
+    grid-area: OCWHP;
+}
+
+.underground {
+    grid-area: underground;
+}
+
+.table {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+
+}
+
+.table .thead-dark th {
+    background-color: #BA989E;
+    border-color: #BA989E;
+    font-size: 40px;
+    font-family: Playfair Display, serif;
+    font-weight: lighter;
+}
+
+.footer {
+    padding: 20px;
+    font-family: Tamil Sangam MN, sans-serif ;
+    font-weight: lighter;
+    font-size: 20px;
+    background-color: #381322;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "email socialMedia";
+
+}
+
+.email {
+    grid-area: email;
+    
+}
+
+.socialMedia {
+    grid-area: socialMedia;
+   
+}
+
+.linkedIn{
+    float: right;
+    padding: 10px;
+}
+
+.instagram {
+    float: right;
+    padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar{
+        font-size: 18px;
+    }
+    .projects {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "DOI"
+        "OCWHP"
+        "underground";
+        grid-row-gap: 50px;
+    }
+    .name {
+        font-size: 50px;
+    }
+    .aboutMe {
+        font-size: 20px;;
+    }
+    #quote {
+        font-size: 20px;
+    }
+    .projectHead {
+        font-size: 30px;
+    }
+}
+
